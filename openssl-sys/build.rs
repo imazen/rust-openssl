@@ -3,6 +3,7 @@ extern crate pkg_config;
 use std::env;
 
 fn main() {
+    println!("openssl-sys-custom")
     let target = env::var("TARGET").unwrap();
 
     // libressl_pnacl_sys links the libs needed.
